@@ -1,0 +1,352 @@
+//Drum Kit Dunnett GM - Samuel Santana - 2022
+//https://github.com/samuelsantanaoficial/Dunnett-Ti.git
+
+<control>
+default_path=Samples/Dunnett Ti/
+
+<global>
+loop_mode=one_shot
+amp_veltrack=100
+
+// 01 Mic Kick In
+<group>
+group=1
+volume=-6
+
+<region>key=35 sample=Kick - Kick In.wav
+<region>key=36 sample=Kick - Kick In.wav
+<region>key=37 sample=Side Stick - Kick In.wav
+<region>key=38 sample=Snare Hit - Kick In.wav
+<region>key=40 sample=Snare HalfEdge - Kick In.wav
+<region>key=41 sample=Tom 18 - Kick In.wav
+<region>key=43 sample=Tom 16 - Kick In.wav
+<region>key=45 sample=Tom 13 - Kick In.wav
+<region>key=47 sample=Tom 12 - Kick In.wav
+<region>key=48 sample=Tom 10 - Kick In.wav
+<region>key=49 sample=Crash 1 Hit - Kick In.wav
+<region>key=50 sample=Tom 10 - Kick In.wav
+<region>key=51 sample=Ride Hit - Kick In.wav
+<region>key=52 sample=Crash 2 Bell - Kick In.wav
+<region>key=53 sample=Ride Bell - Kick In.wav
+<region>key=55 sample=Crash 1 Bell - Kick In.wav
+<region>key=57 sample=Crash 2 Hit - Kick In.wav
+<region>key=59 sample=Ride Edge - Kick In.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Kick In.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Kick In.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Kick In.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Kick In.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Kick In.wav
+
+// 02 Mic Kick Out
+<group>
+group=2
+volume=-6
+
+<region>key=35 sample=Kick - Kick Out.wav
+<region>key=36 sample=Kick - Kick Out.wav
+<region>key=37 sample=Side Stick - Kick Out.wav
+<region>key=38 sample=Snare Hit - Kick Out.wav
+<region>key=40 sample=Snare HalfEdge - Kick Out.wav
+<region>key=41 sample=Tom 18 - Kick Out.wav
+<region>key=43 sample=Tom 16 - Kick Out.wav
+<region>key=45 sample=Tom 13 - Kick Out.wav
+<region>key=47 sample=Tom 12 - Kick Out.wav
+<region>key=48 sample=Tom 10 - Kick Out.wav
+<region>key=49 sample=Crash 1 Hit - Kick Out.wav
+<region>key=50 sample=Tom 10 - Kick Out.wav
+<region>key=51 sample=Ride Hit - Kick Out.wav
+<region>key=52 sample=Crash 2 Bell - Kick Out.wav
+<region>key=53 sample=Ride Bell - Kick Out.wav
+<region>key=55 sample=Crash 1 Bell - Kick Out.wav
+<region>key=57 sample=Crash 2 Hit - Kick Out.wav
+<region>key=59 sample=Ride Edge - Kick Out.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Kick Out.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Kick Out.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Kick Out.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Kick Out.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Kick Out.wav
+
+
+// 03 Mic Kick Sub
+<group>
+group=3
+volume=-6
+
+<region>key=35 sample=Kick - Kick Sub.wav
+<region>key=36 sample=Kick - Kick Sub.wav
+
+
+// 04 Mic Snare Top
+<group>
+group=4
+volume=-6
+
+<region>key=35 sample=Kick - Snare Top.wav
+<region>key=36 sample=Kick - Snare Top.wav
+<region>key=37 sample=Side Stick - Snare Top.wav
+<region>key=38 sample=Snare Hit - Snare Top.wav
+<region>key=40 sample=Snare HalfEdge - Snare Top.wav
+<region>key=41 sample=Tom 18 - Snare Top.wav
+<region>key=43 sample=Tom 16 - Snare Top.wav
+<region>key=45 sample=Tom 13 - Snare Top.wav
+<region>key=47 sample=Tom 12 - Snare Top.wav
+<region>key=48 sample=Tom 10 - Snare Top.wav
+<region>key=49 sample=Crash 1 Hit - Snare Top.wav
+<region>key=50 sample=Tom 10 - Snare Top.wav
+<region>key=51 sample=Ride Hit - Snare Top.wav
+<region>key=52 sample=Crash 2 Bell - Snare Top.wav
+<region>key=53 sample=Ride Bell - Snare Top.wav
+<region>key=55 sample=Crash 1 Bell - Snare Top.wav
+<region>key=57 sample=Crash 2 Hit - Snare Top.wav
+<region>key=59 sample=Ride Edge - Snare Top.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Snare Top.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Snare Top.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Snare Top.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Snare Top.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Snare Top.wav
+
+
+// 05 Mic Snare Bottom
+<group>
+group=5
+volume=-6
+
+<region>key=35 sample=Kick - Snare Bottom.wav
+<region>key=36 sample=Kick - Snare Bottom.wav
+<region>key=37 sample=Side Stick - Snare Bottom.wav
+<region>key=38 sample=Snare Hit - Snare Bottom.wav
+<region>key=40 sample=Snare HalfEdge - Snare Bottom.wav
+<region>key=41 sample=Tom 18 - Snare Bottom.wav
+<region>key=43 sample=Tom 16 - Snare Bottom.wav
+<region>key=45 sample=Tom 13 - Snare Bottom.wav
+<region>key=47 sample=Tom 12 - Snare Bottom.wav
+<region>key=48 sample=Tom 10 - Snare Bottom.wav
+<region>key=49 sample=Crash 1 Hit - Snare Bottom.wav
+<region>key=50 sample=Tom 10 - Snare Bottom.wav
+<region>key=51 sample=Ride Hit - Snare Bottom.wav
+<region>key=52 sample=Crash 2 Bell - Snare Bottom.wav
+<region>key=53 sample=Ride Bell - Snare Bottom.wav
+<region>key=55 sample=Crash 1 Bell - Snare Bottom.wav
+<region>key=57 sample=Crash 2 Hit - Snare Bottom.wav
+<region>key=59 sample=Ride Edge - Snare Bottom.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Snare Bottom.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Snare Bottom.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Snare Bottom.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Snare Bottom.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Snare Bottom.wav
+
+
+// 06 Mic Hihat
+<group>
+group=6
+off_mode=normal
+ampeg_release=0.07
+volume=-18
+off_by=6 
+
+<region>key=44 sample=Hihat Pedal - Hihat.wav
+<region>key=42 hivel=98 sample=Hihat ClosedT - Hihat.wav
+<region>key=42 lovel=99 sample=Hihat ClosedS - Hihat.wav
+<region>key=46 hivel=98 sample=Hihat OpenT - Hihat.wav
+<region>key=46 lovel=99 sample=Hihat OpenS - Hihat.wav
+
+
+// 07 Mic Tom 1
+<group>
+group=7
+volume=-6
+
+<region>key=48 sample=Tom 10 - Tom 10.wav
+<region>key=50 sample=Tom 10 - Tom 10.wav
+
+
+// 08 Mic Tom 2
+<group>
+group=8
+volume=-6
+
+<region>key=47 sample=Tom 12 - Tom 12.wav
+
+
+// 09 Mic Tom 3
+<group>
+group=9
+volume=-6
+
+<region>key=45 sample=Tom 13 - Tom 13.wav
+
+
+// 10 Mic Tom 4
+<group>
+group=10
+volume=-6
+
+<region>key=43 sample=Tom 16 - Tom 16.wav
+
+
+// 11 Mic Tom 5
+<group>
+group=11
+volume=-6
+
+<region>key=41 sample=Tom 18 - Tom 18.wav
+
+
+// 12 Mic Crash 1
+<group>
+group=12
+volume=-9
+
+<region>key=49 sample=Crash 1 Hit - Crash 1.wav
+<region>key=55 sample=Crash 1 Bell - Crash 1.wav
+
+
+// 13 Mic Crash 2
+<group>
+group=13
+volume=-9
+
+<region>key=52 sample=Crash 2 Bell - Crash 2.wav
+<region>key=57 sample=Crash 2 Hit - Crash 2.wav
+
+
+// 14 Mic Ride
+<group>
+group=14
+volume=-9
+
+<region>key=51 sample=Ride Hit - Ride.wav
+<region>key=53 sample=Ride Bell - Ride.wav
+<region>key=59 sample=Ride Edge - Ride.wav
+
+
+// 15 Mic OH Left
+<group>
+group=15
+volume=-24
+pan=-100
+
+<region>key=35 sample=Kick - OH Left.wav
+<region>key=36 sample=Kick - OH Left.wav
+<region>key=37 sample=Side Stick - OH Left.wav
+<region>key=38 sample=Snare Hit - OH Left.wav
+<region>key=40 sample=Snare HalfEdge - OH Left.wav
+<region>key=41 sample=Tom 18 - OH Left.wav
+<region>key=43 sample=Tom 16 - OH Left.wav
+<region>key=45 sample=Tom 13 - OH Left.wav
+<region>key=47 sample=Tom 12 - OH Left.wav
+<region>key=48 sample=Tom 10 - OH Left.wav
+<region>key=49 sample=Crash 1 Hit - OH Left.wav
+<region>key=50 sample=Tom 10 - OH Left.wav
+<region>key=51 sample=Ride Hit - OH Left.wav
+<region>key=52 sample=Crash 2 Bell - OH Left.wav
+<region>key=53 sample=Ride Bell - OH Left.wav
+<region>key=55 sample=Crash 1 Bell - OH Left.wav
+<region>key=57 sample=Crash 2 Hit - OH Left.wav
+<region>key=59 sample=Ride Edge - OH Left.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - OH Left.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - OH Left.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - OH Left.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - OH Left.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - OH Left.wav
+
+
+// 16 Mic OH Right
+<group>
+group=16
+volume=-24
+pan=100
+
+<region>key=35 sample=Kick - OH Right.wav
+<region>key=36 sample=Kick - OH Right.wav
+<region>key=37 sample=Side Stick - OH Right.wav
+<region>key=38 sample=Snare Hit - OH Right.wav
+<region>key=40 sample=Snare HalfEdge - OH Right.wav
+<region>key=41 sample=Tom 18 - OH Right.wav
+<region>key=43 sample=Tom 16 - OH Right.wav
+<region>key=45 sample=Tom 13 - OH Right.wav
+<region>key=47 sample=Tom 12 - OH Right.wav
+<region>key=48 sample=Tom 10 - OH Right.wav
+<region>key=49 sample=Crash 1 Hit - OH Right.wav
+<region>key=50 sample=Tom 10 - OH Right.wav
+<region>key=51 sample=Ride Hit - OH Right.wav
+<region>key=52 sample=Crash 2 Bell - OH Right.wav
+<region>key=53 sample=Ride Bell - OH Right.wav
+<region>key=55 sample=Crash 1 Bell - OH Right.wav
+<region>key=57 sample=Crash 2 Hit - OH Right.wav
+<region>key=59 sample=Ride Edge - OH Right.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - OH Right.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - OH Right.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - OH Right.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - OH Right.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - OH Right.wav
+
+
+// 17 Mic Room Left
+<group>
+group=17
+volume=-34
+pan=-100
+
+<region>key=35 sample=Kick - Room Left.wav
+<region>key=36 sample=Kick - Room Left.wav
+<region>key=37 sample=Side Stick - Room Left.wav
+<region>key=38 sample=Snare Hit - Room Left.wav
+<region>key=40 sample=Snare HalfEdge - Room Left.wav
+<region>key=41 sample=Tom 18 - Room Left.wav
+<region>key=43 sample=Tom 16 - Room Left.wav
+<region>key=45 sample=Tom 13 - Room Left.wav
+<region>key=47 sample=Tom 12 - Room Left.wav
+<region>key=48 sample=Tom 10 - Room Left.wav
+<region>key=49 sample=Crash 1 Hit - Room Left.wav
+<region>key=50 sample=Tom 10 - Room Left.wav
+<region>key=51 sample=Ride Hit - Room Left.wav
+<region>key=52 sample=Crash 2 Bell - Room Left.wav
+<region>key=53 sample=Ride Bell - Room Left.wav
+<region>key=55 sample=Crash 1 Bell - Room Left.wav
+<region>key=57 sample=Crash 2 Hit - Room Left.wav
+<region>key=59 sample=Ride Edge - Room Left.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Room Left.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Room Left.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Room Left.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Room Left.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Room Left.wav
+
+
+// 18 Mic Room Right
+<group>
+group=18
+volume=-34
+pan=100
+
+<region>key=35 sample=Kick - Room Right.wav
+<region>key=36 sample=Kick - Room Right.wav
+<region>key=37 sample=Side Stick - Room Right.wav
+<region>key=38 sample=Snare Hit - Room Right.wav
+<region>key=40 sample=Snare HalfEdge - Room Right.wav
+<region>key=41 sample=Tom 18 - Room Right.wav
+<region>key=43 sample=Tom 16 - Room Right.wav
+<region>key=45 sample=Tom 13 - Room Right.wav
+<region>key=47 sample=Tom 12 - Room Right.wav
+<region>key=48 sample=Tom 10 - Room Right.wav
+<region>key=49 sample=Crash 1 Hit - Room Right.wav
+<region>key=50 sample=Tom 10 - Room Right.wav
+<region>key=51 sample=Ride Hit - Room Right.wav
+<region>key=52 sample=Crash 2 Bell - Room Right.wav
+<region>key=53 sample=Ride Bell - Room Right.wav
+<region>key=55 sample=Crash 1 Bell - Room Right.wav
+<region>key=57 sample=Crash 2 Hit - Room Right.wav
+<region>key=59 sample=Ride Edge - Room Right.wav
+
+<region>key=44 off_by=6 sample=Hihat Pedal - Room Right.wav
+<region>key=42 off_by=6 hivel=98 sample=Hihat ClosedT - Room Right.wav
+<region>key=42 off_by=6 lovel=99 sample=Hihat ClosedS - Room Right.wav
+<region>key=46 off_by=6 hivel=98 sample=Hihat OpenT - Room Right.wav
+<region>key=46 off_by=6 lovel=99 sample=Hihat OpenS - Room Right.wav

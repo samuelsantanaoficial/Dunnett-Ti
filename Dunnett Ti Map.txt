@@ -1,0 +1,22 @@
+# MIDI note/CC name map
+59 Ride Edge
+57 Crash 2 Hit
+55 Crash 1 Bell
+53 Ride Bell
+52 Crash 2 Bell
+51 Ride Hit
+50 Tom 10*
+49 Crash 1 Hit
+48 Tom 10
+47 Tom 12
+46 HiHat Open
+45 Tom 13
+44 HiHat Pedal
+43 Tom 16
+42 HiHat Closed
+41 Tom 18
+40 Snare
+38 Snare Hit
+37 Side Stick
+36 Kick
+35 Kick
