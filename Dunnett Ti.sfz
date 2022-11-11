@@ -11,7 +11,7 @@ amp_veltrack=100
 // 01 Mic Kick In
 <group>
 group=1
-volume=-6
+volume=-4
 
 <region>key=35 sample=Kick - Kick In.wav
 <region>key=36 sample=Kick - Kick In.wav
@@ -199,7 +199,7 @@ volume=-6
 // 12 Mic Crash 1
 <group>
 group=12
-volume=-9
+volume=-6
 
 <region>key=49 sample=Crash 1 Hit - Crash 1.wav
 <region>key=55 sample=Crash 1 Bell - Crash 1.wav
@@ -208,7 +208,7 @@ volume=-9
 // 13 Mic Crash 2
 <group>
 group=13
-volume=-9
+volume=-6
 
 <region>key=52 sample=Crash 2 Bell - Crash 2.wav
 <region>key=57 sample=Crash 2 Hit - Crash 2.wav
@@ -217,7 +217,7 @@ volume=-9
 // 14 Mic Ride
 <group>
 group=14
-volume=-9
+volume=-6
 
 <region>key=51 sample=Ride Hit - Ride.wav
 <region>key=53 sample=Ride Bell - Ride.wav
@@ -227,7 +227,7 @@ volume=-9
 // 15 Mic OH Left
 <group>
 group=15
-volume=-24
+volume=-12
 pan=-100
 
 <region>key=35 sample=Kick - OH Left.wav
@@ -259,7 +259,7 @@ pan=-100
 // 16 Mic OH Right
 <group>
 group=16
-volume=-24
+volume=-12
 pan=100
 
 <region>key=35 sample=Kick - OH Right.wav
@@ -291,7 +291,7 @@ pan=100
 // 17 Mic Room Left
 <group>
 group=17
-volume=-34
+volume=-18
 pan=-100
 
 <region>key=35 sample=Kick - Room Left.wav
@@ -323,7 +323,7 @@ pan=-100
 // 18 Mic Room Right
 <group>
 group=18
-volume=-34
+volume=-18
 pan=100
 
 <region>key=35 sample=Kick - Room Right.wav
